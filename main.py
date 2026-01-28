@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client
-from py_tgcalls import PyTgCalls
-from py_tgcalls.types.input_stream import AudioPiped
+from pytgcalls import PyTgCalls
+from pytgcalls.types.input_stream import AudioPiped
 from pytgcalls.types.input_stream import AudioPiped
 from pytgcalls.types.input_stream.quality import HighQualityAudio
 import yt_dlp
@@ -120,4 +120,5 @@ async def close_cb(_, cb):
 # ---------------- START ----------------
 vc.start()
 app.run()
+
 
